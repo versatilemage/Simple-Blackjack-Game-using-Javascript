@@ -1,0 +1,41 @@
+body{
+    display: grid;
+    grid-template-rows: auto, auto, auto;
+    width: 50%;
+    height: 20em;
+    background: rgb(72, 137, 32);
+    margin-left: 25%;
+    text-align: center;
+    color: white;
+
+}
+
+#bjack{
+    color: gold;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 4em;
+}
+
+button{
+    background: gold;
+    color: green;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1%;
+    font-size: 1.6em;
+    font-family: sans-serif;
+    font-weight: 500;
+    transition: 300ms;
+    border-radius: 3px;
+}
+
+button:hover{
+    background: rgb(238, 206, 23);
+    transform: scale(105%);
+    color: black;
+}
+
+#message-el{
+    font-style: italic;
+}
